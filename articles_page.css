@@ -1,0 +1,27 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+h1,
+p,
+button,
+li {
+    overflow-wrap: anywhere;
+}
+
+.text_monospace {
+    font-family: "Monospace";
+}
+
+.text_roboto {
+    font-family: "Roboto";
+}
+
+.articles_page_cards:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 8px 8px 16px #0000002D;
+}
